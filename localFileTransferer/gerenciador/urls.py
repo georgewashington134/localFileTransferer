@@ -12,4 +12,5 @@ urlpatterns = [
     path('<path:subpath>/', views.browse, name='browse_subpath'),
     path('download/file/<path:filepath>', views.download_file_view, name='download_file'),
     path('download/folder/<path:folderpath>', views.download_folder_view, name='download_folder'),
+    path('about/', views.about, name='about'),
 ]
